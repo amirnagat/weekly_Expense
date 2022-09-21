@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background: linear-gradient(90deg, rgba(5,73,239,1) 0%, rgba(14,14,12,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+.budgetDisplay{
+    background-color: rgb(212, 237, 218);
+}
+.remainingDisplay{
+    background-color: #CCE5FF;
+}
