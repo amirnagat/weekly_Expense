@@ -6,7 +6,7 @@ let budgetDisplay = document.querySelector("#budgetDisplay");
 let remainingDisplay = document.querySelector("#remainingDisplay");
 let allItems = document.querySelector("#allItems");
 // prompt
-let msg = Number(prompt());
+let msg = Number(prompt("write your budget here"));
 let newRema = msg;
 budgetDisplay.innerHTML = `${msg}`;
 remainingDisplay.innerHTML = `${newRema}`;
